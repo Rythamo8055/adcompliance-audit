@@ -1,0 +1,132 @@
+[
+  {
+    "ad_name": "Traya Health - Hair Diagnosis Campaign Ad",
+    "file_path": "/home/rythamo/Documents/antigravity/brave-hubble/test_ads/traya_ad.mp4",
+    "preflight_probe": {
+      "valid": true,
+      "duration_sec": 29.05,
+      "width": 1920,
+      "height": 1080,
+      "fps": 29.97,
+      "aspect_ratio": 1.7778,
+      "aspect_ratio_label": "16:9 (Horizontal Widescreen)",
+      "is_vertical_9_16": false,
+      "meets_resolution_1080p": true,
+      "audio": {
+        "has_audio": true,
+        "mean_volume_db": -11.2,
+        "max_volume_db": 0.0,
+        "clipping_detected": true
+      }
+    },
+    "creative_audit": {
+      "cqs_score": 62,
+      "status": "REVISION_REQUIRED",
+      "hook_audit": {
+        "product_visible_in_first_3s": true,
+        "first_product_second": 0.5,
+        "hook_style": "Problem Demonstration",
+        "hook_critique": "The mobile website interface is visible immediately, which is great, but the actual physical product is not shown within the first 3 seconds."
+      },
+      "speech_audit": {
+        "brand_spoken": false,
+        "brand_timestamp_sec": null,
+        "promo_code_spoken": false,
+        "promo_code_timestamp_sec": null,
+        "pacing_evaluation": "Background music only; voiceover is completely missing."
+      },
+      "safe_zone_audit": {
+        "safe_zone_violations": [
+          "Text elements ('An online assessment to fix it all') slightly infringe upon the top platform UI safe zone on Instagram Reels."
+        ]
+      },
+      "revision_message": "Hi there! Great work on the clean animation style and engaging flow. However, we have a few critical updates needed before this can go live: 1) The promo code 'TRAYA20' and brand name 'Traya Health' need to be spoken out loud in a voiceover. 2) Please ensure the physical product box/bottles appear clearly within the first 3 seconds as part of the hook. 3) Kindly check the safe zones so text elements don't get covered by UI icons. Let us know if you have any questions!",
+      "_meta": {
+        "model_used": "gemini-3.5-flash-lite",
+        "key_index": 1,
+        "latency_sec": 4.07,
+        "tokens": {
+          "promptTokenCount": 3159,
+          "candidatesTokenCount": 365,
+          "totalTokenCount": 3524,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 520
+            },
+            {
+              "modality": "VIDEO",
+              "tokenCount": 2639
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
+    }
+  },
+  {
+    "ad_name": "Pilgrim - 24K Gold Face Serum Campaign Ad",
+    "file_path": "/home/rythamo/Documents/antigravity/brave-hubble/test_ads/pilgrim_ad.mp4",
+    "preflight_probe": {
+      "valid": true,
+      "duration_sec": 34.01,
+      "width": 1920,
+      "height": 1080,
+      "fps": 25.0,
+      "aspect_ratio": 1.7778,
+      "aspect_ratio_label": "16:9 (Horizontal Widescreen)",
+      "is_vertical_9_16": false,
+      "meets_resolution_1080p": true,
+      "audio": {
+        "has_audio": true,
+        "mean_volume_db": -13.4,
+        "max_volume_db": 0.0,
+        "clipping_detected": true
+      }
+    },
+    "creative_audit": {
+      "cqs_score": 68,
+      "status": "REVISION_REQUIRED",
+      "hook_audit": {
+        "product_visible_in_first_3s": false,
+        "first_product_second": 3.8,
+        "hook_style": "Model Intro / Aesthetic Showcase",
+        "hook_critique": "The product is not visible within the first 3 seconds. The video opens with a model wearing a gold dress instead of showcasing the 24K Gold Serum bottle immediately."
+      },
+      "speech_audit": {
+        "brand_spoken": true,
+        "brand_timestamp_sec": 5.2,
+        "promo_code_spoken": false,
+        "promo_code_timestamp_sec": null,
+        "pacing_evaluation": "Good overall pacing, but missing essential promotional details."
+      },
+      "safe_zone_audit": {
+        "safe_zone_violations": [
+          "On-screen text elements at the bottom appear in the TikTok/Reels caption overlap danger zone during the lower-third title sequences."
+        ]
+      },
+      "revision_message": "Hey! Fantastic job on the visual aesthetics, lighting, and premium glow vibe. However, we have a few critical updates needed to meet the platform guidelines: 1) Please feature the 24K Gold Serum bottle within the very first 3 seconds of the video as an opening hook. 2) Make sure to verbally state the promo code 'PILGRIM20' clearly in the audio track. 3) Shift the lower-third text overlays up by about 15% so they stay safely out of the platform caption danger zone. Let me know if you can get these quick tweaks over to us!",
+      "_meta": {
+        "model_used": "gemini-3.5-flash-lite",
+        "key_index": 1,
+        "latency_sec": 6.47,
+        "tokens": {
+          "promptTokenCount": 3611,
+          "candidatesTokenCount": 393,
+          "totalTokenCount": 4004,
+          "promptTokensDetails": [
+            {
+              "modality": "VIDEO",
+              "tokenCount": 3094
+            },
+            {
+              "modality": "TEXT",
+              "tokenCount": 517
+            }
+          ],
+          "serviceTier": "standard"
+        }
+      }
+    }
+  }
+]

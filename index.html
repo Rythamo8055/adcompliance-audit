@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdCompliance.ai | Creator QA & Ad Intelligence</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    h1 { font-size: 2.25rem !important; line-height: 2.5rem !important; }
+    h2 { font-size: 1.5rem !important; line-height: 2rem !important; }
+    h3 { font-size: 1.125rem !important; line-height: 1.75rem !important; }
+  </style>
+</head>
+<body class="bg-white text-zinc-950 antialiased p-6 sm:p-12 font-sans selection:bg-black selection:text-white min-h-screen">
+  <div class="max-w-4xl mx-auto space-y-12">
+
+    <!-- Top Navigation -->
+    <header class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6 pb-8 border-b border-zinc-200">
+      <div class="space-y-2">
+        <div class="flex items-center gap-3">
+          <span class="font-mono text-xs tracking-widest px-2.5 py-1 rounded bg-black text-white font-bold uppercase">
+            QA ENGINE
+          </span>
+          <span class="font-mono text-xs text-zinc-500 font-medium">PRE-FLIGHT // AUDIT</span>
+        </div>
+        <h1 class="text-3xl sm:text-4xl font-black tracking-tight text-zinc-950">
+          AdCompliance
+        </h1>
+        <p class="text-base text-zinc-600 max-w-xl">
+          Pre-flight deliverable verification & competitor reverse-engineering for performance marketing teams.
+        </p>
+      </div>
+
+      <!-- Brand Switcher Tabs -->
+      <div class="flex items-center gap-1 bg-zinc-100 p-1.5 rounded-xl border border-zinc-200">
+        <button onclick="switchTab('traya')" id="tab-traya-btn" class="px-5 py-2.5 text-xs font-bold rounded-lg bg-black text-white transition shadow-sm">
+          TRAYA HEALTH
+        </button>
+        <button onclick="switchTab('pilgrim')" id="tab-pilgrim-btn" class="px-5 py-2.5 text-xs font-bold rounded-lg bg-transparent text-zinc-600 hover:text-black transition">
+          PILGRIM SKINCARE
+        </button>
+      </div>
+    </header>
+
+    <!-- Operational KPI Metrics (Clean, Light Minimalist) -->
+    <section class="grid grid-cols-2 sm:grid-cols-4 gap-6 py-2">
+      <div class="border-l-2 border-black pl-4 space-y-1">
+        <div class="text-xs font-mono uppercase tracking-wider text-zinc-500">Audit Speed</div>
+        <div class="text-3xl font-black font-mono text-zinc-950">4.07s</div>
+        <div class="text-xs text-zinc-500 font-mono">Native Video API</div>
+      </div>
+      <div class="border-l-2 border-zinc-300 pl-4 space-y-1">
+        <div class="text-xs font-mono uppercase tracking-wider text-zinc-500">Cost / Run</div>
+        <div class="text-3xl font-black font-mono text-zinc-950">$0.00</div>
+        <div class="text-xs text-zinc-500 font-mono">Free Cascade Tier</div>
+      </div>
+      <div class="border-l-2 border-black pl-4 space-y-1">
+        <div class="text-xs font-mono uppercase tracking-wider text-zinc-500">Payout Status</div>
+        <div class="text-3xl font-black font-mono text-zinc-950">HOLD</div>
+        <div class="text-xs text-zinc-500 font-mono">Revisions Pending</div>
+      </div>
+      <div class="border-l-2 border-zinc-300 pl-4 space-y-1">
+        <div class="text-xs font-mono uppercase tracking-wider text-zinc-500">Ad Archetype</div>
+        <div class="text-3xl font-black font-mono text-zinc-950">AUTO</div>
+        <div class="text-xs text-zinc-500 font-mono">Dynamic Routing</div>
+      </div>
+    </section>
+
+    <!-- TRAYA HEALTH AUDIT VIEW -->
+    <div id="view-traya" class="space-y-10">
+      
+      <!-- Primary Score Card & Redesigned Flat Checklist (No Nested Cards) -->
+      <section class="border border-zinc-200 rounded-2xl p-6 sm:p-10 space-y-8 bg-zinc-50/50 shadow-sm">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-6 pb-6 border-b border-zinc-200">
+          <div class="space-y-1">
+            <span class="text-xs font-mono tracking-widest text-zinc-500 uppercase font-semibold">Video File // traya_ad.mp4</span>
+            <h2 class="text-2xl font-bold tracking-tight text-zinc-950">Hair Diagnosis Explainer</h2>
+            <p class="text-sm text-zinc-600">Target Channel: Instagram Reels & Shorts (9:16 Vertical)</p>
+          </div>
+          <div class="flex items-baseline gap-2">
+            <span class="text-5xl sm:text-6xl font-black tracking-tight text-zinc-950">62</span>
+            <span class="text-lg font-mono text-zinc-500">/ 100</span>
+          </div>
+        </div>
+
+        <!-- Flat Clean Checklist Table -->
+        <div class="space-y-4">
+          <div class="flex items-center justify-between pb-2 border-b border-zinc-200">
+            <h3 class="text-xs font-mono uppercase tracking-widest text-zinc-500">Compliance Verification Checklist</h3>
+            <span class="text-xs font-mono text-zinc-500">5 Checks</span>
+          </div>
+
+          <div class="divide-y divide-zinc-200 text-sm">
+            <!-- Row 1 -->
+            <div class="py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div>
+                <span class="font-bold text-zinc-950">Aspect Ratio Specification</span>
+                <p class="text-xs text-zinc-500">Must be strictly vertical 9:16 for full-screen Reels.</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="px-3 py-1 rounded-full text-xs font-bold bg-black text-white whitespace-nowrap">✕ REJECTED</span>
+                <span class="text-xs font-mono text-zinc-700">16:9 Widescreen</span>
+              </div>
+            </div>
+
+            <!-- Row 2 -->
+            <div class="py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div>
+                <span class="font-bold text-zinc-950">0–3s Hook Product Presence</span>
+                <p class="text-xs text-zinc-500">Diagnostic visual or product shown in opening frame.</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="px-3 py-1 rounded-full text-xs font-bold bg-zinc-200 text-zinc-900 whitespace-nowrap">✓ VERIFIED</span>
+                <span class="text-xs font-mono text-zinc-700">Present at 00:00.5</span>
+              </div>
+            </div>
+
+            <!-- Row 3 -->
+            <div class="py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div>
+                <span class="font-bold text-zinc-950">Brand Spoken in Audio Track</span>
+                <p class="text-xs text-zinc-500">'Traya' must be spoken clearly in the voiceover.</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="px-3 py-1 rounded-full text-xs font-bold bg-black text-white whitespace-nowrap">✕ REJECTED</span>
+                <span class="text-xs font-mono text-zinc-700">Voiceover Missing</span>
+              </div>
+            </div>
+
+            <!-- Row 4 -->
+            <div class="py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div>
+                <span class="font-bold text-zinc-950">Promo Code Spoken ('TRAYA20')</span>
+                <p class="text-xs text-zinc-500">Affiliate tracking discount code verbal pronunciation.</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="px-3 py-1 rounded-full text-xs font-bold bg-black text-white whitespace-nowrap">✕ REJECTED</span>
+                <span class="text-xs font-mono text-zinc-700">Code Omitted</span>
+              </div>
+            </div>
+
+            <!-- Row 5 -->
+            <div class="py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div>
+                <span class="font-bold text-zinc-950">Regulatory Medical Claims Check</span>
+                <p class="text-xs text-zinc-500">No forbidden promises ('cures baldness', 'permanent fix').</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="px-3 py-1 rounded-full text-xs font-bold bg-zinc-200 text-zinc-900 whitespace-nowrap">✓ VERIFIED</span>
+                <span class="text-xs font-mono text-zinc-700">100% Compliant</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Revision Note (Clean Light Mode) -->
+      <section class="space-y-4">
+        <div class="flex items-center justify-between">
+          <h3 class="text-xs font-mono uppercase tracking-widest text-zinc-500">Creator Revision Message (WhatsApp / Email)</h3>
+          <button onclick="copyToClipboard('traya-rev-text')" class="text-xs px-4 py-2 rounded-lg bg-black text-white font-bold uppercase tracking-wider hover:bg-zinc-800 transition">
+            Copy Message
+          </button>
+        </div>
+        <div id="traya-rev-text" class="p-5 bg-zinc-50 border border-zinc-200 rounded-xl font-mono text-sm text-zinc-900 leading-relaxed">
+Hi there! Great work on the clean animation style and engaging flow. However, we have a few critical updates needed before this can go live:
+1) The promo code 'TRAYA20' and brand name 'Traya Health' need to be spoken out loud in a voiceover.
+2) Please ensure the physical product box/bottles appear clearly within the first 3 seconds as part of the hook.
+3) Kindly check the safe zones so text elements don't get covered by UI icons. Let us know if you have any questions!
+        </div>
+      </section>
+
+      <!-- Competitor Script Breakdown -->
+      <section class="space-y-6 pt-6 border-t border-zinc-200">
+        <div class="flex items-center justify-between">
+          <div class="space-y-1">
+            <span class="text-xs font-mono uppercase tracking-widest text-zinc-500">Competitor Intelligence</span>
+            <h2 class="text-xl font-bold text-zinc-950">Counter-Creative: The "Sharma-Ji" Angle</h2>
+          </div>
+          <button onclick="copyToClipboard('traya-script-text')" class="text-xs px-4 py-2 rounded-lg border border-black bg-white text-black font-bold uppercase tracking-wider hover:bg-black hover:text-white transition">
+            Copy Creator Brief
+          </button>
+        </div>
+
+        <div id="traya-script-text" class="space-y-4 text-base">
+          <div class="border-l-2 border-black pl-5 py-1">
+            <span class="text-xs font-mono text-zinc-500 uppercase tracking-wider block mb-1">0–3s Opening Hook</span>
+            <p class="text-zinc-950 font-medium">"Ever notice how your hair starts falling out the moment your parents compare your package to Sharma Ji's son?"</p>
+          </div>
+          <div class="border-l-2 border-zinc-300 pl-5 py-1">
+            <span class="text-xs font-mono text-zinc-500 uppercase tracking-wider block mb-1">Root Cause Mechanism</span>
+            <p class="text-zinc-600">"Gen-Z and millennials are drowning in chronic burnout—and it's destroying your hairline from the root up. Stop blaming bad genetics when it's actually years of stress wreaking havoc on your gut. Traya combines Ayurveda, dermatology, and nutrition to treat your root cause."</p>
+          </div>
+          <div class="border-l-2 border-black pl-5 py-1">
+            <span class="text-xs font-mono text-zinc-500 uppercase tracking-wider block mb-1">Call to Action (CTA)</span>
+            <p class="text-zinc-950 font-medium">"Take the free hair test today and reclaim your confidence. Grow your hair, not your stress."</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- PILGRIM VIEW (Hidden by default) -->
+    <div id="view-pilgrim" class="space-y-10 hidden">
+      <section class="border border-zinc-200 rounded-2xl p-6 sm:p-10 space-y-8 bg-zinc-50/50 shadow-sm">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-6 pb-6 border-b border-zinc-200">
+          <div class="space-y-1">
+            <span class="text-xs font-mono tracking-widest text-zinc-500 uppercase font-semibold">Video File // pilgrim_ad.mp4</span>
+            <h2 class="text-2xl font-bold tracking-tight text-zinc-950">24K Gold Face Serum Film</h2>
+            <p class="text-sm text-zinc-600">Archetype: Cinematic Studio Commercial (16:9 1080p TVC)</p>
+          </div>
+          <div class="flex items-baseline gap-2">
+            <span class="text-5xl sm:text-6xl font-black tracking-tight text-zinc-950">92</span>
+            <span class="text-lg font-mono text-zinc-500">/ 100</span>
+          </div>
+        </div>
+
+        <div class="space-y-4">
+          <div class="flex items-center justify-between pb-2 border-b border-zinc-200">
+            <h3 class="text-xs font-mono uppercase tracking-widest text-zinc-500">Prestige Commercial Evaluation</h3>
+            <span class="text-xs font-mono text-zinc-500">4 Checks</span>
+          </div>
+
+          <div class="divide-y divide-zinc-200 text-sm">
+            <div class="py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div>
+                <span class="font-bold text-zinc-950">Cinematography & Diffused Studio Lighting</span>
+                <p class="text-xs text-zinc-500">Controlled professional studio illumination and depth of field.</p>
+              </div>
+              <span class="px-3 py-1 rounded-full text-xs font-bold bg-zinc-200 text-zinc-900">✓ APPROVED</span>
+            </div>
+            <div class="py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div>
+                <span class="font-bold text-zinc-950">Color Grading & Skin Tone Consistency</span>
+                <p class="text-xs text-zinc-500">True-to-life golden hues matching Jeju Island aesthetic.</p>
+              </div>
+              <span class="px-3 py-1 rounded-full text-xs font-bold bg-zinc-200 text-zinc-900">✓ APPROVED</span>
+            </div>
+            <div class="py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div>
+                <span class="font-bold text-zinc-950">Brand Tagline & Logo Lockup</span>
+                <p class="text-xs text-zinc-500">Prominent serif logo lockup displayed at video culmination.</p>
+              </div>
+              <span class="px-3 py-1 rounded-full text-xs font-bold bg-zinc-200 text-zinc-900">✓ APPROVED</span>
+            </div>
+            <div class="py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div>
+                <span class="font-bold text-zinc-950">Audio Dynamic Range</span>
+                <p class="text-xs text-zinc-500">Audio peaks measured at 0.0 dB (digital clipping ceiling).</p>
+              </div>
+              <span class="px-3 py-1 rounded-full text-xs font-bold bg-black text-white">NOTICE: Peak Clipping</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Outreach CTA Footer -->
+    <footer class="pt-8 border-t border-zinc-200 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+      <div class="space-y-1">
+        <h3 class="text-base font-bold text-zinc-950">Audit Your Pending Creator Queue</h3>
+        <p class="text-sm text-zinc-600">Send 3 Google Drive links to receive compliance certificates in 10 minutes.</p>
+      </div>
+      <a href="mailto:audit@adcompliance.ai?subject=Free%203-Video%20Creator%20Audit" class="px-6 py-3 rounded-lg bg-black text-white font-bold text-xs uppercase tracking-wider hover:bg-zinc-800 transition shadow-sm">
+        Submit 3 Drafts Free →
+      </a>
+    </footer>
+
+  </div>
+
+  <script>
+    function switchTab(brand) {
+      const trayaView = document.getElementById('view-traya');
+      const pilgrimView = document.getElementById('view-pilgrim');
+      const trayaBtn = document.getElementById('tab-traya-btn');
+      const pilgrimBtn = document.getElementById('tab-pilgrim-btn');
+
+      if (brand === 'traya') {
+        trayaView.classList.remove('hidden');
+        pilgrimView.classList.add('hidden');
+        trayaBtn.className = "px-5 py-2.5 text-xs font-bold rounded-lg bg-black text-white transition shadow-sm";
+        pilgrimBtn.className = "px-5 py-2.5 text-xs font-bold rounded-lg bg-transparent text-zinc-600 hover:text-black transition";
+      } else {
+        pilgrimView.classList.remove('hidden');
+        trayaView.classList.add('hidden');
+        pilgrimBtn.className = "px-5 py-2.5 text-xs font-bold rounded-lg bg-black text-white transition shadow-sm";
+        trayaBtn.className = "px-5 py-2.5 text-xs font-bold rounded-lg bg-transparent text-zinc-600 hover:text-black transition";
+      }
+    }
+
+    function copyToClipboard(elementId) {
+      const text = document.getElementById(elementId).innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        alert("Copied to clipboard!");
+      });
+    }
+  </script>
+</body>
+</html>

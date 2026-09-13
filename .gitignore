@@ -1,0 +1,8 @@
+.env
+*.env
+__pycache__/
+*.pyc
+test_ads/*.mp4
+test_ads/*.webm
+.gemini/
+.agent/
