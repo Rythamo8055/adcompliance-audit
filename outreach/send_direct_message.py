@@ -66,10 +66,10 @@ def send_dm(username: str, message_text: str) -> dict:
                 browser.close()
                 return result
 
-            print("Focusing textbox and typing message...")
+            print("Focusing textbox and typing message via keyboard...")
             textbox.click()
             page.wait_for_timeout(500)
-            textbox.fill(message_text)
+            page.keyboard.insert_text(message_text)
             page.wait_for_timeout(1000)
 
             # Find Send button
