@@ -10,7 +10,7 @@
       "role": "Assistant Manager - Influencer Marketing",
       "profile_url": "https://www.linkedin.com/in/mugdha-ghag-a062251a9/",
       "status": "invitation_sent_with_note",
-      "note_text": "Hi Mugdha, saw you lead influencer marketing at Traya. Built an AI QA engine for creator video drafts: https://rythamo8055.github.io/adcompliance-audit/ — can audit 3 pending drafts free today!",
+      "note_text": "Hi Mugdha, saw you lead influencer marketing at Traya. Built an AI QA engine for creator video drafts: https://rythamo8055.github.io/adcompliance-audit/ \u2014 can audit 3 pending drafts free today!",
       "follow_up_ready": "Hi Mugdha, thanks for connecting! Noticed Traya scales massive creator volume every month. The bottleneck is often the 3-day back-and-forth review cycle when captions collide with Reels UI or claims miss ASCI standards. We built an automated audit engine that checks drafts in 4.5s (safe-zones, visual hook timestamps, claim compliance). Happy to run 3 pending drafts from your Google Drive free today!"
     },
     {
@@ -19,8 +19,8 @@
       "role": "Assistant Manager - Influencer Marketing",
       "profile_url": "https://www.linkedin.com/in/nidhi-singh-6b587b206/",
       "status": "invitation_sent_with_note",
-      "note_text": "Hi Nidhi, saw you lead influencer marketing at Foxtale. Built an AI QA engine for creator video drafts: https://rythamo8055.github.io/adcompliance-audit/ — can audit 3 pending drafts free today!",
-      "follow_up_ready": "Hi Nidhi, great to connect with you! Scaling skincare creator partnerships across Instagram & YouTube requires hours of manual review to ensure brand claims, safe-zones, and first-3-second retention hooks are respected. Our engine runs timestamped QA in 4s. See our live demo here: https://rythamo8055.github.io/adcompliance-audit/ — happy to audit 3 upcoming creator submissions free for you!"
+      "note_text": "Hi Nidhi, saw you lead influencer marketing at Foxtale. Built an AI QA engine for creator video drafts: https://rythamo8055.github.io/adcompliance-audit/ \u2014 can audit 3 pending drafts free today!",
+      "follow_up_ready": "Hi Nidhi, great to connect with you! Scaling skincare creator partnerships across Instagram & YouTube requires hours of manual review to ensure brand claims, safe-zones, and first-3-second retention hooks are respected. Our engine runs timestamped QA in 4s. See our live demo here: https://rythamo8055.github.io/adcompliance-audit/ \u2014 happy to audit 3 upcoming creator submissions free for you!"
     },
     {
       "name": "Tiyasha Banerjee",
@@ -28,8 +28,8 @@
       "role": "Executive - Brand & Communications (Influencer Marketing)",
       "profile_url": "https://www.linkedin.com/in/tiyasha-banerjee-b5b948317/",
       "status": "invitation_sent_with_note",
-      "note_text": "Hi Tiyasha, saw you lead creator campaigns at Pilgrim. Built an AI QA engine for video ad drafts: https://rythamo8055.github.io/adcompliance-audit/ — can audit 3 pending creator drafts free today!",
-      "follow_up_ready": "Hi Tiyasha, pleasure connecting! We actually used Pilgrim's 24K Gold TVC as one of the baseline benchmarks for our compliance scorecard (measuring prestige commercial pacing vs UGC). You can see the live audit breakdown here: https://rythamo8055.github.io/adcompliance-audit/ — would love to audit 3 pending creator drafts from your current campaign free!"
+      "note_text": "Hi Tiyasha, saw you lead creator campaigns at Pilgrim. Built an AI QA engine for video ad drafts: https://rythamo8055.github.io/adcompliance-audit/ \u2014 can audit 3 pending creator drafts free today!",
+      "follow_up_ready": "Hi Tiyasha, pleasure connecting! We actually used Pilgrim's 24K Gold TVC as one of the baseline benchmarks for our compliance scorecard (measuring prestige commercial pacing vs UGC). You can see the live audit breakdown here: https://rythamo8055.github.io/adcompliance-audit/ \u2014 would love to audit 3 pending creator drafts from your current campaign free!"
     },
     {
       "name": "Neel Shinde",
@@ -38,16 +38,17 @@
       "profile_url": "https://www.linkedin.com/in/neel-shinde/",
       "status": "connection_sent",
       "note_text": null,
-      "follow_up_ready": "Hi Neel, saw you manage performance marketing at Traya. We built an automated QA tool that catches hook delays, UI overlap, and ASCI compliance on creator video ads before you put paid budget behind them. Check the live scorecard here: https://rythamo8055.github.io/adcompliance-audit/ — happy to audit 3 pending creatives free!"
+      "follow_up_ready": "Hi Neel, saw you manage performance marketing at Traya. We built an automated QA tool that catches hook delays, UI overlap, and ASCI compliance on creator video ads before you put paid budget behind them. Check the live scorecard here: https://rythamo8055.github.io/adcompliance-audit/ \u2014 happy to audit 3 pending creatives free!"
     },
     {
       "name": "Khushboo Raimalani",
       "company": "Pilgrim",
       "role": "Brand Marketing",
       "profile_url": "https://www.linkedin.com/in/khushboo-raimalani/",
-      "status": "connection_sent",
+      "status": "dm_delivered",
       "note_text": null,
-      "follow_up_ready": "Hi Khushboo, saw you're on the Brand Marketing team at Pilgrim. We built an AI compliance & video audit engine and tested it directly against beauty commercials: https://rythamo8055.github.io/adcompliance-audit/ — would love to connect and share notes on creator QA automation!"
+      "follow_up_ready": "Hi Khushboo, saw you're on the Brand Marketing team at Pilgrim. We built an AI compliance & video audit engine and tested it directly against beauty commercials: https://rythamo8055.github.io/adcompliance-audit/ \u2014 would love to connect and share notes on creator QA automation!",
+      "dm_sent_at": "2026-09-13T15:35:30+05:30"
     },
     {
       "name": "Shaborni Basu",
@@ -56,7 +57,7 @@
       "profile_url": "https://www.linkedin.com/in/shaborni-basu-3a0900228/",
       "status": "connection_sent",
       "note_text": null,
-      "follow_up_ready": "Hi Shaborni, saw you lead brand management at Minimalist. Given Minimalist's strict scientific rigor, ensuring creator ads don't misstate ingredient claims or violate ASCI guidelines is critical. We built an automated video compliance engine: https://rythamo8055.github.io/adcompliance-audit/ — happy to audit 3 creator drafts free for Minimalist!"
+      "follow_up_ready": "Hi Shaborni, saw you lead brand management at Minimalist. Given Minimalist's strict scientific rigor, ensuring creator ads don't misstate ingredient claims or violate ASCI guidelines is critical. We built an automated video compliance engine: https://rythamo8055.github.io/adcompliance-audit/ \u2014 happy to audit 3 creator drafts free for Minimalist!"
     }
   ]
 }
